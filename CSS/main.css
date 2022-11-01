@@ -1,0 +1,252 @@
+/* 
+    ====== General reset =====
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-size: 18px;
+    line-height: 1.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   
+}
+
+/* 
+        ------ Navigation Bar ------
+*/
+.nav-bar {
+    max-width: 1920px;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    border-bottom: 1px solid grey;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar li{
+    list-style: none;
+    margin-left: 40px;
+
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar span{
+    color: #0957de;;
+}
+
+
+.nav-bar-logIn {
+
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    background-color: #0957de;
+    color: white;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+
+/* 
+        ------ Navigation bar end ------
+*/
+
+
+/* 
+        ------ First Part of the Header ------
+*/
+
+.header-section{
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    line-height: 2.0em;
+    padding: 100px;
+    margin-bottom: 25px;
+}
+
+.header-section a{
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    background-color: #0957de;
+    color: white;
+    padding: 5px 25px;
+    font-size: 15px;
+    
+}
+
+.header-section h1 {
+    font-size: 60px;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+}
+
+.header-item:nth-child(1){
+    width: 350px;
+    margin-right: 30px;
+}
+
+.header-item h3 {
+    /* max-width: 18px; */
+    color: red;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.header-item h3::before{
+    content: "";
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    background-color: black;
+    display: block;
+}
+.header-item span{
+    position: absolute;
+    left: 60px;
+    top: -18px;
+    margin-bottom: 20px;
+
+}
+
+.header-item:nth-child(2){
+    /* display:; */
+    position: relative;
+
+}
+
+.header-item:nth-child(2) img{
+    position: absolute;
+    width: 200px;
+}
+
+.header-images:nth-child(1) img{
+    width: 400px;
+    top: -39vh;
+    /* right: 100px; */
+    left: 20vh;
+}
+
+.header-images:nth-child(2) img{
+    width: 350px;
+    top: -35vh;
+    /* right: 100px; */
+    left: 30vh;
+}
+
+.header-images:nth-child(3) img{
+    width: 300px;
+    top: -16vh;
+    /* right: -100vw; */
+    left: 45vh;
+}
+
+.header-images:nth-child(4) img{
+    min-width: 300px;
+    top: -21vh;
+    /* right: -100vw; */
+    left: 20vh;
+}
+
+.header-images:nth-child(5) img{
+    min-width: 250px;
+    top: -30vh;
+    /* right: -100vw; */
+    left: 13vh;
+}
+
+.header-images:nth-child(6) img{
+    min-width: 300px;
+    top: 17vh;
+    /* right: -100vw; */
+    left: 55vh;
+}
+
+/* 
+        ------ End of First part of header
+*/
+
+
+/* 
+        ----- Beginning of Second Section of Header
+*/
+
+.container{
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f5f7;
+    margin: 0px 100px 50px 100px;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+.container h2 {
+    font-size: 16px;
+}
+
+.container p, a {
+    font-size: 14px;
+}
+
+.sub-container{
+    /* margin: 0 45px; */
+}
+
+.sub-container:nth-child(2){
+    padding: 5px 20px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgb(66, 65, 65);
+}
+
+.sub-container img {
+    background: transparent;
+    width: 40px;
+    box-shadow: 25px 25px 100px #e4adad;
+}
+
+.sub-container span {
+    background-color: #58bb7c;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.sub-container:nth-child(1) span {
+    background-color: #ff6600;
+}
+
+.sub-container a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2.5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.sub-container:nth-child(2) a {
+    background-color: #f3f5f7;
+}
