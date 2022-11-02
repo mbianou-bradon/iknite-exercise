@@ -26,9 +26,9 @@
             ========== Whole Header =============
         */
 
-        .general-container {
+        /* .general-container {
             display: flex;
-        }
+        } */
 
         /* 
             ------ Header First Section --------
@@ -119,48 +119,121 @@
 
 }
 
+ 
+@media (max-width: 840px) {
 
-@media (max-width: 780px) {
 
-
-    .general-container {
+    /* .general-container {
         flex-wrap: wrap;
         justify-content: space-between;
 
+    }  */
+
+    .nav-bar{
+        max-width: 700px;
     }
 
     .header-section {
         flex-wrap: wrap;
-        height: 100vh;
-        width: 100%;
+        height: auto;
+        width: 90%;
+        padding: 25px;
+        align-items: center;
+        justify-content: center;
     }
 
     .home-image img {
-        
+        max-width: 100%;
     }
 
     .home-image img:hover {
-        width: 95%;
+        width: 100%;
     }
+
+    .header-section a{
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+    .header-section h1 {
+        font-size: 40px;
+        line-height: 1.1em;
+        margin-bottom: 20px;
+    }
+
+    .header-item:nth-child(1){
+        width: 550px;
+        margin-right: 30px;
+    }
+
+    .header-item h3 {
+        /* max-width: 18px; */
+        color: red;
+        /* position: relative; */
+        margin-bottom: 20px;
+        display: flex;
+    }
+
     
    .container{
     width: 100vh;
-    height: 100vh;
-    /* justify-content: space-between; */
-    padding: 10px 10px;
-    margin: 50px 50px ;
-    position: normal;
-    flex-wrap: nowrap;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px auto;
+    margin: 25px auto ;
+    /* flex-direction: column; */
 
 
-   }
 
-   .sub-container {
-    margin: 0;
-    padding: 10px;
+   } 
+    .sub-container {
+    margin: 20px 20px;
+    padding: 25px 25px;
     
+   } 
+
+   .sub-container:nth-child(2){
+    margin: 20px 20px;
+    padding: 25px 25px;
 
    }
+   
+
+} 
+
+
+@media (max-width: 600px) {
+    
+    .container{
+    width: 60vh;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px auto;
+    margin: 50px auto ;
+    flex-direction: column;
+
+   } 
+
+
+
+
+
+
+
+    .sub-container {
+    margin: 20px 0px 20px 0px;
+    padding: 5px 20px;
+    
+   } 
+   
+    .sub-container:nth-child(2){
+    padding: 5px 20px;
+    border-radius: 7px;
+    background-color: white;
+
+    }
 
 }
-
