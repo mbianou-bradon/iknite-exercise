@@ -106,7 +106,6 @@ body {
 .header-section{
     height: 80vh;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     line-height: 2.0em;
     padding: 100px;
@@ -140,7 +139,6 @@ body {
 }
 
 .header-item h3 {
-    /* max-width: 18px; */
     color: red;
     position: relative;
     margin-bottom: 20px;
@@ -254,7 +252,7 @@ body {
     background: transparent;
     max-inline-size: 40px;
     block-size: auto;  
-    /* box-shadow: 25px 25px 100px #e4adad; */
+
 }
 
 .sub-container span {

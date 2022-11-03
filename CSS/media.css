@@ -182,7 +182,6 @@
     align-items: center;
     padding: 10px auto;
     margin: 50px auto ;
-    /* flex-direction: column; */
 
    }
 
@@ -214,19 +213,5 @@
     flex-direction: column;
 
    } 
-
-
-    /* .sub-container {
-    margin: 20px 0px 20px 0px;
-    padding: 5px 20px;
-    
-   } 
-   
-    .sub-container:nth-child(2){
-    padding: 5px 20px;
-    border-radius: 7px;
-    background-color: white;
-
-    }  */
 
 }
