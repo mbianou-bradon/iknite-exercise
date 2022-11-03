@@ -55,9 +55,7 @@
         visibility: visible;
     }
 
-    /* 
-        ------- Basketball Animation --------
-    */
+                    /* ------- Basketball Animation --------*/
 
 }
 
@@ -68,8 +66,7 @@
     animation-delay: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-     /* display: none; */
-     visibility: hidden;
+    visibility: hidden;
 }
 
 @keyframes basketball {
@@ -81,7 +78,6 @@
 
     20% {
         transform: translateX(200px) rotate(90deg -90deg);
-        /* transform: ; */
     }
 
     40% {
@@ -104,9 +100,7 @@
     
 }
 
-    /* 
-        --------- Football Animation --------
-    */
+                /*  --------- Football Animation --------*/
 
 .header-images:nth-child(3) img{
     animation-name: football;
@@ -150,9 +144,7 @@
     
 }
 
-    /* 
-        --------Rugby Ball animation -------
-    */
+                /*  --------Rugby Ball animation ------- */
 
 .header-images:nth-child(4) img{
     animation-name: rugby;
@@ -198,10 +190,7 @@
 
 
 
-
-    /* 
-        ------- Profile Card -------------
-    */
+                      /* ------- Profile Card -------------*/
 
 
 
@@ -219,7 +208,6 @@
 
     0% {
         visibility: visible;
-        /* transform: scale(20px 20px); */
         width: 0px;
     }
 
@@ -243,107 +231,98 @@
 
     20% {
       
-        width: 100px ;
-        
-    }
+    width: 100px;        
+}
 
-    25% {
+25% {
       
-        width: 125px ;
-    }
+    width: 125px ;
+}
 
-    30% {
+30% {
       
-        width: 150px ;
-        
-    }
+    width: 150px;        
+}
 
-    35% {
+35% {
        
-        width: 175px ;
-    }
+    width: 175px ;
+}
 
-    40% {
+40% {
       
-        width: 200px ;
-        
-    }
+    width: 200px;        
+}
 
-    45% {
+45% {
       
-        width: 225px ;
-    }
+    width: 225px ;
+}
 
-    50% {
+50% {
       
-        width: 250px ;
+    width: 250px ;
         
-    }
+}
 
-    55% {
+55% {
       
-        width: 275px ;
-        
-    }
+    width: 275px;        
+}
 
-    60% {
+60% {
         
-        width: 300px ;
-        
-    }
+    width: 300px ;        
+}
 
-    65% {
+65% {
       
-        width: 325px ;
-        
-    }
+    width: 325px;        
+}
 
-    70% {
+70% {
 
-        width: 350px;
-    }
+    width: 350px;
+}
 
-    75% {
+75% {
       
-        width: 375px ;
+    width: 375px ;
         
-    }
+}
 
-    80% {
+80% {
         
-        width: 400px ;
-    }
+    width: 400px ;
+}
 
-    85% {
+85% {
       
-        width: 375px ;
-        
-    }
+    width: 375px;        
+}
 
-    90% {
+90% {
        
-        width: 350px ;
-    }
+    width: 350px ;
+}
 
-    95% {
+95% {
       
-        width: 325px ;
+    width: 325px ;
         
-    }
+}
 
-    100% {
+100% {
 
-        visibility: visible;
-        width: 250px ;
-    }
+    visibility: visible;
+    width: 250px ;
+}
 
 
     
 }
 
-    /* 
-        ------- Profile Card Horizontal-------------
-    */
+                 /* ------------ Profile Card Horizontal -------------*/
 
 
 
@@ -359,181 +338,182 @@
 
 @keyframes card2 {
 
-    0% {
-        visibility: visible;
+0% {
+    visibility: visible;       
+    width: 0px;
+}
+
+5% {
+      
+    width: 25px ;        
+}
+
+10% {
+      
+    width: 50px ;
+        
+}
+
+15% {
        
-        width: 0px;
-    }
+    width: 75px;
+}
 
-    5% {
+20% {
       
-        width: 25px ;
+    width: 100px ;
         
-    }
+}
 
-    10% {
+25% {
       
-        width: 50px ;
+    width: 125px ;
+}
+
+30% {
+      
+    width: 150px ;
         
-    }
+}
 
-    15% {
-
+35% {
        
-        width: 75px;
-    }
+    width: 175px ;
+}
 
-    20% {
+40% {
       
-        width: 100px ;
+    width: 200px ;
         
-    }
+}
 
-    25% {
+45% {
       
-        width: 125px ;
-    }
+    width: 225px ;
+}
 
-    30% {
+50% {
       
-        width: 150px ;
+    width: 250px ;
         
-    }
+}
 
-    35% {
+55% {
+      
+    width: 275px ;
+        
+}
+
+60% {
+        
+    width: 300px ;
+        
+}
+
+65% {
+      
+    width: 325px ;
+        
+}
+
+70% {
+
+    width: 350px;
+}
+
+75% {
+      
+    width: 375px ;
+        
+}
+
+80% {
+        
+    width: 400px ;
+}
+
+85% {
+      
+    width: 375px ;
+        
+}
+
+90% {
        
-        width: 175px ;
-    }
+    width: 350px ;
+}
 
-    40% {
+95% {
       
-        width: 200px ;
+    width: 325px ;
         
-    }
+}
 
-    45% {
-      
-        width: 225px ;
-    }
+100% {
 
-    50% {
-      
-        width: 250px ;
-        
-    }
-
-    55% {
-      
-        width: 275px ;
-        
-    }
-
-    60% {
-        
-        width: 300px ;
-        
-    }
-
-    65% {
-      
-        width: 325px ;
-        
-    }
-
-    70% {
-
-        width: 350px;
-    }
-
-    75% {
-      
-        width: 375px ;
-        
-    }
-
-    80% {
-        
-        width: 400px ;
-    }
-
-    85% {
-      
-        width: 375px ;
-        
-    }
-
-    90% {
-       
-        width: 350px ;
-    }
-
-    95% {
-      
-        width: 325px ;
-        
-    }
-
-    100% {
-
-        visibility: visible;
-        width: 250px ;
-    }
+    visibility: visible;
+    width: 250px ;
+}
 
     
 }
 
 
+            /* ------- Cards Animations -- Principally Hover -----*/
 
-
-    /* 
-        ------- Cards Animations -- Principally Hover -----
-    */
-
-    .sub-container:hover{
-        background-color: rgb(13, 143, 143);
-        transition: 1s;
-        color: white;
+.sub-container:hover{
+    background-color: rgb(13, 143, 143);
+    transition: 1s;
+    color: white;
         
-    }
+}
 
-    .sub-container span:hover{
-        background-color: #ff6600;
-        color: black;
-        font-size: 15px;
-        transition: 0.3s;
+.sub-container span:hover{
+    background-color: #ff6600;
+    color: black;
+    font-size: 15px;
+    transition: 1s;
         
-    }
+}
 
-    .sub-container:nth-child(1) span:hover{
-        background-color: #58bb7c;
+.sub-container:nth-child(1) span:hover{
+    background-color: #58bb7c;
+    transition: 1s;
 
-    }
+}
 
-    .sub-container a:hover{
-        color: white;
-        background-color: black;
-        font-size: 14px;
-    }
+.sub-container a:hover{
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    transition: 0.5s;
+}
 
 
-        /* 
-            --------- Navigation Bar elements ----------
-        */
- .active, .no-active:hover {
+        /*---------------- Navigation Bar elements -----------------*/
+
+.active, .no-active:hover {
     color: black;
     background-color: #cccccc;
-    transition: 0.2s;
+    transition: 0.6s;
 
- }
+}
 
 
-        /* 
-            ------- Log in Button ---------
-        */
+        /*  ------- Log in Button ---------*/
 
 
 .nav-bar-logIn:hover, .contact:hover {
     cursor: pointer;
     background-color: #58bb7c;
     font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+        /*---------- Sub Container images -----------  */
+
+.sub-container img:hover{
+    max-width: 50px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
 }

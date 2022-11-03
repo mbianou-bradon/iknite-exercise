@@ -1,6 +1,4 @@
-/* 
-    ====== General reset =====
-*/
+/* ============= General reset =============*/
 
 * {
     padding: 0;
@@ -17,28 +15,25 @@ body {
    
 }
 
-/* 
-        ------ Navigation Bar ------
-*/
+            /* ------------ Navigation Bar ------------*/
+
 .nav-bar {
-    max-width: 1920px;
+    max-width: 100%;
     height: 13vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 50px;
+    padding: 0px 25px;
     border-bottom: 1px solid grey;
 }
 
-.nav-bar ul{
+.menu-desktop{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .nav-bar li{
     list-style: none;
-    /* margin-left: 40px; */
-
 }
 
 .nav-bar a {
@@ -56,26 +51,57 @@ body {
     color: #0957de;;
 }
 
+.nav-bar h2, .nav-bar span, .nav-bar-logIn {
+    font-size: 1.2rem;
+}
+
+
 
 .nav-bar-logIn {
 
-    /* border: 1px solid black; */
     border-radius: 12px;
     background-color: #0957de;
     color: white;
-    padding: 5px 25px;
+    padding: 0.1% 25px;
     font-size: 15px;
 }
 
 
-/* 
-        ------ Navigation bar end ------
-*/
+.menu {
+    position: relative;
+}
+
+.open-menu,.close-menu {
+    position: absolute;
+    color: #0957de;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+.open-menu{
+    display: none;
+}
 
 
-/* 
-        ------ First Part of the Header ------
-*/
+.close-menu {
+    top: 10px;
+    left: 20px;
+        
+}
+
+#check {display: none;}
+
+
+.nav-bar-Mobile{
+    display: none;
+}
+
+            /* ------------------------ Navigation bar end --------------------------*/
+
+
+                                /*------ First Part of the Header ------*/
+
 
 .header-section{
     height: 80vh;
@@ -138,7 +164,6 @@ body {
 }
 
 .header-item:nth-child(2){
-    /* display:; */
     position: relative;
 
 }
@@ -151,42 +176,36 @@ body {
 .header-images:nth-child(1) img{
     width: 400px;
     top: -39vh;
-    /* right: 100px; */
     left: 20vh;
 }
 
 .header-images:nth-child(2) img{
     width: 350px;
     top: -35vh;
-    /* right: 100px; */
     left: 30vh;
 }
 
 .header-images:nth-child(3) img{
     width: 300px;
     top: -16vh;
-    /* right: -100vw; */
     left: 45vh;
 }
 
 .header-images:nth-child(4) img{
     min-width: 300px;
     top: -21vh;
-    /* right: -100vw; */
     left: 20vh;
 }
 
 .header-images:nth-child(5) img{
     width: 250px;
     top: -30vh;
-    /* right: -100vw; */
     left: 13vh;
 }
 
 .header-images:nth-child(6) img{
     width: 300px;
     top: 17vh;
-    /* right: -100vw; */
     left: 55vh;
 }
 
@@ -194,25 +213,22 @@ body {
     display: none;
 }
 
-/* 
-        ------ End of First part of header
-*/
 
 
-/* 
-        ----- Beginning of Second Section of Header
-*/
+        /*--------------------------- End of First part of header -------------------------*/
+
+
+                  /* ----------- Beginning of Second Section of Header----------------*/
 
 .container{
-    max-width: 1920px;
+    max-width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #f3f5f7;
     margin: 0px 100px 50px 100px;
     border-radius: 20px;
     padding: 20px 30px;
-    /* flex-wrap: wrap; */
 }
 
 .container h2 {
@@ -229,7 +245,6 @@ body {
 }
 
 .sub-container:nth-child(2){
-    padding: 5px 20px;
     border-radius: 7px;
     background-color: white;
     box-shadow: 0px 10px 20px rgb(66, 65, 65);
@@ -237,8 +252,9 @@ body {
 
 .sub-container img {
     background: transparent;
-    width: 40px;
-    box-shadow: 25px 25px 100px #e4adad;
+    max-inline-size: 40px;
+    block-size: auto;  
+    /* box-shadow: 25px 25px 100px #e4adad; */
 }
 
 .sub-container span {
@@ -266,3 +282,5 @@ body {
 .sub-container:nth-child(2) a {
     background-color: #f3f5f7;
 }
+
+            /*------------------------ End of Second Section of Header -----------------  */
