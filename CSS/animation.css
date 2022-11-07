@@ -471,7 +471,7 @@
 .sub-container span:hover{
     background-color: #ff6600;
     color: black;
-    font-size: 15px;
+    /* font-size: 15px; */
     transition: 1s;
         
 }
@@ -485,8 +485,8 @@
 .sub-container a:hover{
     color: white;
     background-color: black;
-    font-size: 14px;
-    transition: 0.5s;
+    /* font-size: 14px; */
+    transition: 1s;
 }
 
 
@@ -506,8 +506,8 @@
 .nav-bar-logIn:hover, .contact:hover {
     cursor: pointer;
     background-color: #58bb7c;
-    font-size: 16px;
-    transition: all 0.3s ease-in-out;
+    /* font-size: 16px; */
+    transition: all 1s ease-in-out;
 }
 
         /*---------- Sub Container images -----------  */
