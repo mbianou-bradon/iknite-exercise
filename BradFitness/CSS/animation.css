@@ -471,8 +471,6 @@
 .sub-container span:hover{
     background-color: #ff6600;
     color: black;
-    /* font-size: 15px; */
-    transition: 1s;
         
 }
 

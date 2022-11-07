@@ -245,6 +245,7 @@ body {
     padding: 5px 20px;
     border-radius: 7px;
     width: fit-content;
+    transition: all 1s;
 }
 
 .sub-container:nth-child(2){
