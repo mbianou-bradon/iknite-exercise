@@ -29,6 +29,12 @@
         justify-content: space-around;
     }
 
+    .header-item:nth-child(1){
+    width: fit-content;
+    /* margin-right: 30px; */
+    padding-left: 50px;
+    }
+
      .header-images
     {
         display: none;
@@ -41,13 +47,12 @@
     .home-image img {
         max-inline-size: 95%;
         block-size: auto;
+        transition: transform 1s;
     
     }
 
     .home-image img:hover{
-        max-inline-size: 100%;
-        transition: 1s;
-        animation-timing-function: ease-in-out;
+       transform: scale(1.05);
     }
 
     .container {
