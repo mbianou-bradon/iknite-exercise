@@ -1,0 +1,8 @@
+@font-face {
+    font-family: adobe-clean;
+    src: url(/resources/fonts/adobe-clean/);
+}
+
+body{
+    font-family: adobe-clean,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
