@@ -1,0 +1,26 @@
+{
+  "name": "iknite-exercise",
+  "version": "1.0.0",
+  "description": "This project involves reproducing the Besnik landing page create on dribble, make the the page as responsive as you want and of course add animations and transitions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbianou-bradon/iknite-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbianou-bradon/iknite-exercise/issues"
+  },
+  "homepage": "https://github.com/mbianou-bradon/iknite-exercise#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
