@@ -64,6 +64,7 @@ body {
     color: white;
     padding: 0.1% 25px;
     font-size: 15px;
+    transition: all 0.5s ease;
 }
 
 
@@ -120,6 +121,7 @@ body {
     color: white;
     padding: 12px 25px;
     font-size: 15px;
+    transition: all 1s ease;
     
 }
 
@@ -135,7 +137,7 @@ body {
 
 .header-item:nth-child(1){
     width: 350px;
-    margin-right: 30px;
+    /* margin-right: 30px; */
 }
 
 .header-item h3 {
@@ -209,6 +211,8 @@ body {
 
 .home-image{
     display: none;
+    transition: transform 1s;
+   
 }
 
 
@@ -241,6 +245,7 @@ body {
     padding: 5px 20px;
     border-radius: 7px;
     width: fit-content;
+    transition: all 1s;
 }
 
 .sub-container:nth-child(2){
@@ -253,6 +258,7 @@ body {
     background: transparent;
     max-inline-size: 40px;
     block-size: auto;  
+    transition: transform 1s;
 
 }
 
@@ -262,6 +268,7 @@ body {
     border-radius: 15px;
     color: white;
     cursor: pointer;
+    transition: all 1s ease-in-out;
 }
 
 .sub-container:nth-child(1) span {
@@ -276,6 +283,7 @@ body {
     padding: 2.5px 10px;
     font-size: 12px;
     cursor: pointer;
+    transition: all 1s;
 }
 
 .sub-container:nth-child(2) a {
