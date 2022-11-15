@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/BradMarketing/css/main.css">
+    <link rel="stylesheet" href="/BradMarketing/css/custom.css">
     <link rel="icon" href="./assets/images/BradMarketing-Icon1.png" type="image/icon type">
     <title>Brad Marketing Company</title>
 </head>
 <body>
-   <div class="container bg-primary px-5 mt-2 d-block">
-    <div class="container-xxl my-3">
-        <nav class="navbar navbar-expand-lg bg-light d-flex justify-content-between">
+   <div class="container main-container">
+    
+        <nav class="navbar navbar-expand-lg my-3">
 
-            <div class="container-fluid">
+            <div class="container justify-content-between">
                 <a class="navbar-brand" href="#">Brad<span class="text-primary">Marketing</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MainNav" aria-controls="MainNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,40 +27,49 @@
                         <a class="nav-link ">Contact</a>
                     </div>
                 </div>
+
+                <div class="container-fluid d-sm-none d-md-block">
+                    <div class="navbar-nav float-end">
+                        <a href="" class="nav-link">Login</a>
+                        <a href="" class="nav-link border">Sign up</a>
+                    </div>
             </div>
 
-            <div class="container-fluid">
-                <div class="navbar-nav">
-                    <a href="" class="nav-link">Login</a>
-                    <a href="" class="nav-link">Sign up</a>
-                 </div>
             </div>
 
-        </nav>
+           
+        </nav> <!-- Nav bar container-->
 
-    </div>  <!-- Nav bar container-->
+    <header id="hero">
+        <div class="container-lg justify-content-between align-content-center text-light">
 
-    <header>
-        <div class="container-lg bg-secondary  d-flex justify-content-between align-content-center">
+            <div class="row justify-content-around align-items-center">
 
-            <div class="row">
-
-                <div class="col">
-                    <div class="container">
-                        <h2>
+                <div class="col-4 pb-5">
+                    <div class="container mb-5">
+                        <h1 class="fw-bolder">
                             Shopify Products
-                        </h2>
-                        <p>More than 80,000+ companies trudt our business</p>
+                        </h1>
+                        <p>More than 90,000+ companies trust our business</p>
                     </div>
 
-                    <div>
-                        <img src="" alt="">
+                    <div class = "bg-light w-30 pt-0 justify-content-center row mb-3 align-items-center" >
+                        <div class="col-2">
+                            <img src="/BradMarketing/assets/images/businessman-folding-hands.png" alt="" style="width: 5rem;">
+                        </div>
+                        
+                        <div class=" col text-center text-black">
+                            <h3>
+                                John Smith
+                            </h3>
+                            <p>Watch our intro video</p>
+                        </div>
                     </div>
 
                 </div>
-                <div class="col">
-                    <div class="cards bg-primary">
-
+                <div class="col-3 h-150">
+                    <div class="bg-primary">
+                        <img src="/BradMarketing/assets/images/Businessman-holding-tablet.png" alt="" class="" style="width: 20rem;">
                     </div>
 
                 </div>
@@ -70,234 +80,313 @@
         </div>
     </header>   <!-- End of Header -->
 
-    <main><!-- Start of Main Section -->
+    <main class="container"><!-- Start of Main Section -->
 
-        <section id="services">
+        <div class="row gap-3">
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-3">
-                        <div class="cards">
-                        <p class="h3">Build on both: Google web stories and AMP website format</p>
-                        </div>
-                    </div>
-                   
-                    <div class="col-3">
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                    </div>
+            <div class="col-12">
 
-                    <div class="col-3">
-                        <div class="container">
-                            <div class="card">
-                                <h2>5640</h2>
-                                <p class="text-muted">
-                                    Product sale per day using our tools
-                                </p>
-                            </div>
-
-                            <div class="card">
-                                <h2>
-                                    8M+
-                                </h2>
-                                <p class="text-muted">
-                                    Downloaded total in 2019-2022
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+          
 
 
+                <section id="services">
 
-                </div>
-
-
-            </div>
-
-        </section>
-
-
-        <section id="process">
-            <div class="container-lg">
-                <div class="text-center">
-                    <h2>Our creative process.</h2>
-                    <p class="text-muted">
-                        Financial instituations provide financial services for members and clients. it is also 
-                        termed as financial intermediaries because they act as middlemen between the savers and
-                        borrowers
-                    </p>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <div>
-                                    <i></i>
+                    <div class="container my-5">
+                        <div class="gap-3 d-flex justify-content-around align-items-center flex-wrap">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="">
+                                <p class="h3">Build on both: Google web stories and AMP website format</p>
                                 </div>
-
-                                <div>
-                                    <h2>
-                                        For SEO
-                                    </h2>
-
-                                    <p class="text-muted">
-                                        improve search ranking son mobile, automatically
-                                    </p>
-                                </div>
-    
                             </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="col">
-
-                        <div class="card">
-                            <div class="card-body">
-                                <div>
-                                    <i></i>
-                                </div>
-
-                                <div>
-                                    <h2>
-                                        For content
-                                    </h2>
-
-                                    <p class="text-muted">
-                                        Your new content creation tool for better engagement.
-                                    </p>
-                                </div>
-    
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col">
-
-                          <div class="card">
-                            <div class="card-body">
-                                <div>
-                                    <i></i>
-                                </div>
-
-                                <div>
-                                    <h2>
-                                        For Conversion
-                                    </h2>
-
-                                    <p class="text-muted">
-                                        AMP experience on desktop optimized for Conversion
-                                    </p>
-                                </div>
-    
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="products">
-            <div class="container-lg my-5">
-                <div class="row bg-secondary d-flex justify-content-between align-items-center p-5">
-
-                    <div class="col-lg-6 col-md-6">
-
-                        <div class="text-center my-4 mb-5 fw-bolder">
-                            <h2>Why product stories? learn more</h2>
-                        </div>
-
-                        <div>
-                            <span><i></i></span>
-                            <h3 class="h5">SEO optimized, high Google rank</h3>
-                            <p class="text-muted">
-                                By converting all your Shopify product pages in AMP format
-                            </p>
-                        </div>
-
-                          <div>
-                            <span><i></i></span>
-                            <h3 class="h5">Fast loading, low bounce rates</h3>
-                            <p class="text-muted">
-                                AMP is the latest Google technology allowing websites to load at much 
-                                higher speeds
-                            </p>
-                        </div>
-
-                        <div>
-                            <span><i></i></span>
-                            <h3 class="h5">Immersive, direct conversion</h3>
-                            <p class="text-muted">
-                                The story format is already a proven layout for giving users a more interactive.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <div class="card bg-tertiary" style="width: 15rem;">
-                            <img src="/BradMarketing/assets/images/couch-chair.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Our popular Mika style is a modern take in the classic button down sofa</p>
-                                <a href="#" class="btn btn-primary">Buy Now for XAF 40,000</a>
-                            </div>
-                        </div>
-
-                        <!-- <div class="card bg-primary">
-
-                        </div> -->
-
-                    </div>
-
-
-
-
-                </div>
-            </div>
-
-            <div class="container-lg">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="container bg-tertiary justify-content-center align-content-center">
-                            <img src="/BradMarketing/assets/images/man-jumping.png" alt="" style="width: 11rem;">
-                            <img src="/BradMarketing/assets/images/couch-chair.png" alt="" style="width: 11rem;">
-                        </div>
-
-                        <div class="container bg-light">Hello</div>
-                        <div class="container bg-light">Hello</div>
-
-
-                    </div>
-
-                    <div class="col-6">
-                        <div class="text-muted">
-                            <h5>CREATIVE INTELLIGENCE</h5>
-                        </div>
-                        <div>
-                            <h3 class="mb-3">know your ads inside & out-perform.</h3>
-                            <p class="text-muted">
-                                When do I feature my Product? Which spokesperson is my target audience responding to? ow optimize my call to action?
-                                Get real=time answers to improve your creative mid-flight. And see what's worked in the past to get intel 
-                                for your next campaign
-                            </p>
-                        </div>
                         
+                            <div class="col-md-6 col-lg-3">
+                                <div>
+                                    <img src="/BradMarketing/assets/images/services-icon.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-lg-4">
+                                <div class="container">
+                                    <div class="row gap-3">
+
+                                        <div class="col border p-2">
+                                            <h2>5640</h2>
+                                            <p class="text-muted">
+                                                Product sale per day using our tools
+                                            </p>
+                                        </div>
+
+                                        <div class="col border">
+                                            <h2>
+                                                8M+
+                                            </h2>
+                                            <p class="text-muted">
+                                                Downloaded total in 2019-2022
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
                     </div>
-                </div>
+
+                </section>
             </div>
 
-        </section>
+            <div class="col-12">
+
+                
+                <section id="process">
+                    <div class="container-lg">
+                        <div class="row justify-content-center align-items-center">
+                        
+                            <div class=" col-7 mb-3 text-center align-items-center">
+                                <h2 class="mb-3">Our creative process.</h2>
+                                <div>
+                                    <p class="text-muted">
+                                        Financial instituations provide financial services for members and clients. it is also 
+                                        termed as financial intermediaries because they act as middlemen between the savers and
+                                        borrowers
+                                    </p>
+                                </div>
+                            
+                            </div>
+                        </div>
+
+                        <div class="row flex-wrap" id="creative-process">
+                            <div class="col">
+                                <div class="card rounded-0 border-0 p-4 h-100">
+                                    <div class="card-body">
+                                        <div class="mb-3">
+                                            <i>
+                                                <img src="/BradMarketing/assets/images/seo-icon.png" alt="">
+                                            </i>
+                                        </div>
+
+                                        <div>
+                                            <h2>
+                                                For SEO
+                                            </h2>
+
+                                            <p class="text-muted">
+                                                improve search ranking son mobile, automatically
+                                            </p>
+                                        </div>
+            
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="col">
+
+                                <div class="card rounded-0 border-0 p-3 h-100">
+                                    <div class="card-body">
+                                        <div class="mb-3">
+                                            <i>
+                                                <img src="/BradMarketing/assets/images/content-icon.png" alt="">
+                                            </i>
+                                        </div>
+
+                                        <div>
+                                            <h2>
+                                                For content
+                                            </h2>
+
+                                            <p class="text-muted">
+                                                Your new content creation tool for better engagement.
+                                            </p>
+                                        </div>
+            
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col">
+
+                                <div class="card rounded-0 border-0 p-3 h-100">
+                                    <div class="card-body">
+                                        <div class="mb-3">
+                                            <i>
+                                                <img src="/BradMarketing/assets/images/conversion-icon.png" alt="">
+                                            </i>
+                                        </div>
+
+                                        <div>
+                                            <h2>
+                                                For Conversion
+                                            </h2>
+
+                                            <p class="text-muted">
+                                                AMP experience on desktop optimized for Conversion
+                                            </p>
+                                        </div>
+            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="col-12">
+
+            
+
+                <section id="products">
+                    <div class="container-lg my-5">
+                        <div class="row d-flex flex-wrap justify-content-between align-items-center p-5">
+
+                            <div class="col-lg-5 col-xsm-12">
+
+                                <div class="my-4 mb-5 fw-bolder">
+                                    <h2>Why product stories? learn more</h2>
+                                </div>
+
+                                <div class="d-flex mb-3">
+                                    <div class="pe-3">
+                                        <img src="/BradMarketing/assets/images/check-circle1.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3 class="h5 mb-3">SEO optimized, high Google rank</h3>
+                                        <p class="">
+                                            By converting all your Shopify product pages in AMP format
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="d-flex mb-3">
+                                    <div class="pe-3">
+                                        <img src="/BradMarketing/assets/images/check-circle1.svg" alt="">
+                                    </div>
+                                    
+                                    <div>
+                                        <h3 class="h5 mb-3">Fast loading, low bounce rates</h3>
+                                        <p>
+                                            AMP is the latest Google technology allowing websites to load at much 
+                                            higher speeds
+                                        </p>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="d-flex">
+                                    <div class="pe-3">
+                                        <img src="/BradMarketing/assets/images/check-circle1.svg" alt="">
+                                    </div>
+                                    
+                                    <div>
+                                        <h3 class="h5 mb-3">Immersive, direct conversion</h3>
+                                        <p>
+                                            The story format is already a proven layout for giving users a more interactive.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 col-xsm-12">
+                                <div class="row w-100 position-relative">
+                                    <div class="card bg-light align-self-center w-75 rounded-0 border-0 p-4">
+                                        <div>
+                                            <h3>$500+</h3>
+                                            <p class="text-muted">Earn per day</p>
+                                        </div>
+                                        <div>
+                                            <img src="/BradMarketing/assets/images/orange-half-circle-clipart.svg" alt="">
+                                            <div class="text-center">
+                                                <h3>$15,000+</h3>
+                                                <p class="text-muted">Earning per month</p>
+                                            </div>
+                                        </div>     
+                                     <div class="card rounded-0 border-0 position-absolute translate-middle top-50 start-100 w-75">
+                                        <img src="/BradMarketing/assets/images/couch-chair.png" class="card-img-top img-fluid" alt="..." >
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">Our popular Mika style is a modern take in the classic button down sofa</p>
+                                            <a href="#" class="btn rounded-pill">Buy Now for XAF 40,000</a>
+                                        </div>
+                                    </div>                          
+                                </div>
+
+
+                                   
+
+                                    </div>
+                                </div>
+                                
+                    </div>
+
+                    <div class="container-lg my-5">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-lg-5 col-xsm-12 align-items-center">
+                                <div class="row align-items-center">
+                                    <div class="col" id="creative">
+                                        <div class="d-inline-flex gap-3 p-3 position-relative w-100">
+                                            <div class="bg-light justify-content-center align-items-center w-50">
+                                                <img src="/BradMarketing/assets/images/man-jumping.png" alt="" class="img-fluid" style="width: 9rem;">
+                                            </div>
+                                            <div class="bg-light d-flex justify-content-center w-50">
+                                                <img src="/BradMarketing/assets/images/couch-chair.png" alt="" class="img-fluid" style="width: 9rem;">
+                                            </div>
+                                            
+                                             <div class=" position-absolute translate-middle  top-0 start-100">
+                                                <img src="/BradMarketing/assets/images/matrix-image.png" alt="" class="" style="width: 9rem;">
+                                            </div>
+
+                                        </div>
+
+                                         <div class="col container bg-light">Hello</div>
+                                        
+                                    </div>
+
+                                   
+                                    
+                                   
+
+                                </div>
+                             
+
+
+                            </div>
+
+                            <div class="col-lg-6 col-xsm-12">
+                                <div class="text-muted">
+                                    <h5>CREATIVE INTELLIGENCE</h5>
+                                </div>
+                                <div>
+                                    <h3 class="mb-3">know your ads inside & out-perform.</h3>
+                                    <p class="text-muted">
+                                        When do I feature my Product? Which spokesperson is my target audience responding to? ow optimize my call to action?
+                                        Get real=time answers to improve your creative mid-flight. And see what's worked in the past to get intel 
+                                        for your next campaign
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
     </main>
 
 
     <footer>
         <section id="contact">
 
-            <div class="container-lg bg-dark justify-content-center align-content-center mt-5 mb-5">
+            <div class="container-lg bg-dark text-white justify-content-center align-items-center mt-5 mb-5">
 
                 <div class="row">
 
@@ -316,7 +405,7 @@
                         <label for="email"></label>
                             <div class="input-group mb-3">
                                 <input type="email" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                <button class="input-group-text btn" id="email">Get Started <i></i></button>
+                                <button class="input-group-text btn" id="email">Get Started <iconify-icon icon="eva:arrow-forward-outline"></iconify-icon></button>
                             </div>
                     </div>
 
@@ -324,30 +413,30 @@
 
                 </div>
 
-                <div class="row">
-                    <div class="col-2">
+                <div class="d-flex justify-content-between align-items-center my-5">
+                    <div class=" text-center">
                         <h2>Brad<span>Marketing</span></h2>
                     </div>
-                    <div class="col-4">
-                        <ul class="navbar-nav">
-                            <li><a href="" class="nav-link">about</a></li>
-                            <li><a href="" class="nav-link">Product</a></li>
-                            <li><a href="" class="nav-link"></a>Service</li>
-                            <li><a href="" class="nav-link">Contact</a></li>
+                    <div class="text-center">
+                        <ul class="list-inline justify-content-center">
+                            <li><a href="" class="list-inline-item text-light">about</a></li>
+                            <li><a href="" class="list-inline-item">Product</a></li>
+                            <li><a href="" class="list-inline-item"></a>Service</li>
+                            <li><a href="" class="list-inline-item">Contact</a></li>
                         </ul>
 
                     </div>
-                    <div class="col-3">
+                    <div class=" text-center d-flex">
                         <div>
-                            <i></i>
+                            <iconify-icon icon="gg:facebook" class="mx-3"></iconify-icon>
                         </div>
 
                         <div>
-                            <i></i>
+                            <iconify-icon icon="bxl:instagram" class="mx-3"></iconify-icon>
                         </div>
 
                         <div>
-                            <i></i>
+                            <iconify-icon icon="prime:youtube" class="mx-3"></iconify-icon>
                         </div>
                     </div>
                 </div>
@@ -362,5 +451,9 @@
     </footer>
 
    </div> <!-- Main container -->
+
+
+
+   <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 </body>
 </html>

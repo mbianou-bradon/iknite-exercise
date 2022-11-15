@@ -1,0 +1,30 @@
+body {
+    background-color: #f5f4f0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hero, #creative {
+    background-color: #1E3322;
+}
+
+.list-inline {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    color: white;
+}
+
+button {
+    background-color: #FF9460;
+    color: black;
+}
+
+#creative img {
+    object-position: center;
+    object-fit: cover;
+}
+
+#creative-process {
+    min-height: max-content;
+}
