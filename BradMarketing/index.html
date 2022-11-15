@@ -21,14 +21,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="MainNav">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
-                        <a class="nav-link" href="#">Product</a>
-                        <a class="nav-link" href="#">Service</a>
-                        <a class="nav-link ">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="#hero">About</a>
+                        <a class="nav-link" href="#products">Product</a>
+                        <a class="nav-link" href="#process">Service</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </div>
                 </div>
 
-                <div class="container-fluid d-sm-none d-md-block">
+                <div class="container-fluid d-none d-md-block">
                     <div class="navbar-nav float-end">
                         <a href="" class="nav-link">Login</a>
                         <a href="" class="nav-link border">Sign up</a>
@@ -41,11 +41,11 @@
         </nav> <!-- Nav bar container-->
 
     <header id="hero">
-        <div class="container-lg justify-content-between align-content-center text-light">
+        <div class="container-lg justify-content-between align-content-center text-light py-5">
 
-            <div class="row justify-content-around align-items-center">
+            <div class="row justify-content-center align-items-center">
 
-                <div class="col-4 pb-5">
+                <div class="col-lg-4 pb-5">
                     <div class="container mb-5">
                         <h1 class="fw-bolder">
                             Shopify Products
@@ -53,23 +53,29 @@
                         <p>More than 90,000+ companies trust our business</p>
                     </div>
 
-                    <div class = "bg-light w-30 pt-0 justify-content-center row mb-3 align-items-center" >
+                    <div class = "bg-light pt-0 justify-content-center row mb-3 align-items-center position-relative m-md-0 mx-5" >
                         <div class="col-2">
                             <img src="/BradMarketing/assets/images/businessman-folding-hands.png" alt="" style="width: 5rem;">
                         </div>
                         
-                        <div class=" col text-center text-black">
+                        <div class=" col text-center text-black ">
                             <h3>
                                 John Smith
                             </h3>
                             <p>Watch our intro video</p>
+                        
                         </div>
+                        <div class="play-btn position-absolute w-auto rounded-circle">
+                            <iconify-icon icon="material-symbols:play-arrow-rounded" class="py-1" id="icon-hero"></iconify-icon>
+                           
+                        </div>
+                        
                     </div>
 
                 </div>
-                <div class="col-3 h-150">
-                    <div class="bg-primary">
-                        <img src="/BradMarketing/assets/images/Businessman-holding-tablet.png" alt="" class="" style="width: 20rem;">
+                <div class="col-md-5 ps-md-5 ps-0">
+                    <div class="">
+                        <img src="/BradMarketing/assets/images/man-reading.png" alt="" class="text-center" style="width: 20rem;">
                     </div>
 
                 </div>
@@ -85,9 +91,6 @@
         <div class="row gap-3">
 
             <div class="col-12">
-
-          
-
 
                 <section id="services">
 
@@ -160,8 +163,8 @@
                         </div>
 
                         <div class="row flex-wrap" id="creative-process">
-                            <div class="col">
-                                <div class="card rounded-0 border-0 p-4 h-100">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <div class="card rounded-0 border-0 p-4">
                                     <div class="card-body">
                                         <div class="mb-3">
                                             <i>
@@ -185,7 +188,7 @@
 
                             </div>
 
-                            <div class="col">
+                            <div class="col-lg-4 col-md-4 col-12 my-md-0 my-3">
 
                                 <div class="card rounded-0 border-0 p-3 h-100">
                                     <div class="card-body">
@@ -210,7 +213,7 @@
 
                             </div>
 
-                            <div class="col">
+                            <div class="col-lg-4  col-md-4 col-12">
 
                                 <div class="card rounded-0 border-0 p-3 h-100">
                                     <div class="card-body">
@@ -247,7 +250,7 @@
                     <div class="container-lg my-5">
                         <div class="row d-flex flex-wrap justify-content-between align-items-center p-5">
 
-                            <div class="col-lg-5 col-xsm-12">
+                            <div class="col-lg-5 col-xsm-12 my-md-0 mb-5">
 
                                 <div class="my-4 mb-5 fw-bolder">
                                     <h2>Why product stories? learn more</h2>
@@ -295,9 +298,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-5 col-xsm-12">
+                            <div class="col-lg-5 col-xsm-12 my-md-0 my-5">
                                 <div class="row w-100 position-relative">
-                                    <div class="card bg-light align-self-center w-75 rounded-0 border-0 p-4">
+                                    <div class="card bg-white align-self-center w-75  rounded-0 border-0 p-4">
                                         <div>
                                             <h3>$500+</h3>
                                             <p class="text-muted">Earn per day</p>
@@ -309,14 +312,22 @@
                                                 <p class="text-muted">Earning per month</p>
                                             </div>
                                         </div>     
-                                     <div class="card rounded-0 border-0 position-absolute translate-middle top-50 start-100 w-75">
-                                        <img src="/BradMarketing/assets/images/couch-chair.png" class="card-img-top img-fluid" alt="..." >
+                                     <div class="card rounded-0 border-0 position-absolute translate-middle top-50 start-100 w-75 advert-card d-sm-inline d-none position-relative">
+                                        <img src="/BradMarketing/assets/images/couch-chair.png" class="card-img-top img-fluid bg-light rounded-0" alt="..." >
                                         <div class="card-body">
-                                            <h5 class="card-title">Card title</h5>
-                                            <p class="card-text">Our popular Mika style is a modern take in the classic button down sofa</p>
-                                            <a href="#" class="btn rounded-pill">Buy Now for XAF 40,000</a>
+                                            <h5 class="card-title my-3">Card title</h5>
+                                            <p class="card-text mb-4">Our popular Mika style is a modern take in the classic button down sofa</p>
+                                            <a href="#" class=" nav-link border p-2 rounded-0 mx-2 text-center">Buy Now for XAF 40,000</a>
                                         </div>
-                                    </div>                          
+
+                                        <div class="dashboard position-absolute p-2">
+                                            <div class="text-center">
+                                                Dashboard
+                                            </div>
+                                            <img src="/BradMarketing/assets/images/bars.png" alt="">
+                                        </div>
+                                    </div>           
+
                                 </div>
 
 
@@ -327,26 +338,48 @@
                                 
                     </div>
 
-                    <div class="container-lg my-5">
-                        <div class="row justify-content-between align-items-center">
-                            <div class="col-lg-5 col-xsm-12 align-items-center">
-                                <div class="row align-items-center">
+                    <div class="container-lg my-md-0 my-5">
+                        <div class="row justify-content-around align-items-center">
+                            <div class="col-lg-5 col-xsm-12 align-items-center mb-md-0 mb-5">
+                                <div class="row align-items-center position-relative">
                                     <div class="col" id="creative">
                                         <div class="d-inline-flex gap-3 p-3 position-relative w-100">
                                             <div class="bg-light justify-content-center align-items-center w-50">
-                                                <img src="/BradMarketing/assets/images/man-jumping.png" alt="" class="img-fluid" style="width: 9rem;">
+                                                <img src="/BradMarketing/assets/images/man-jumping.png" alt="" class="img-fluid man-jumping">
                                             </div>
                                             <div class="bg-light d-flex justify-content-center w-50">
                                                 <img src="/BradMarketing/assets/images/couch-chair.png" alt="" class="img-fluid" style="width: 9rem;">
                                             </div>
                                             
                                              <div class=" position-absolute translate-middle  top-0 start-100">
-                                                <img src="/BradMarketing/assets/images/matrix-image.png" alt="" class="" style="width: 9rem;">
+                                                <img src="/BradMarketing/assets/images/matrix-image.png" alt="" class="matrix-image">
                                             </div>
 
                                         </div>
 
-                                         <div class="col container bg-light">Hello</div>
+                                         <div class="side-contact bg-white position-absolute p-3 d-flex flex-column align-items-center translate-middle">
+                                            <div class="main-avatar avatar text-center bg-primary ">
+                                                <iconify-icon icon="ooui:user-avatar" class="px-1 px-md-2  m-0"></iconify-icon>
+                                            </div>
+                                            <div>
+                                                <h2 class="p-1 m-0">42962+</h2>
+                                                <p class="text-muted p-0 text-center">Customers</p>
+                                            </div>
+                                            <div class="d-flex gap-1 gap-md-2">
+                                                <div class=" avatar px-1 px-md-2 text-center">
+                                                   <iconify-icon icon="ooui:user-avatar"></iconify-icon> 
+                                                </div>
+                                                <div class=" avatar px-1 px-md-2  text-center">
+                                                    <iconify-icon icon="ooui:user-avatar"></iconify-icon>
+                                                </div>
+                                                <div class="avatar px-1 px-md-2  text-center">
+                                                    <iconify-icon icon="ooui:user-avatar"></iconify-icon>
+                                                </div>
+                                                <div class="avatar px-1 px-md-2  text-center">
+                                                    <iconify-icon icon="ooui:user-avatar"></iconify-icon>
+                                                </div>
+                                            </div>
+                                         </div>
                                         
                                     </div>
 
@@ -360,9 +393,9 @@
 
                             </div>
 
-                            <div class="col-lg-6 col-xsm-12">
+                            <div class="col-lg-4 col-xsm-12 my-md-0 mt-5">
                                 <div class="text-muted">
-                                    <h5>CREATIVE INTELLIGENCE</h5>
+                                    <h6 class="fs-6">CREATIVE INTELLIGENCE</h6>
                                 </div>
                                 <div>
                                     <h3 class="mb-3">know your ads inside & out-perform.</h3>
@@ -386,26 +419,27 @@
     <footer>
         <section id="contact">
 
-            <div class="container-lg bg-dark text-white justify-content-center align-items-center mt-5 mb-5">
+            <div class="container-lg bg-dark text-white justify-content-center align-items-center my-5 p-5 flex-wrap">
 
-                <div class="row">
+                <div class="row m-lg-5 m-xsm-0 justify-content-between flex-wrap">
 
-                    <div class="col-6">
+                    <div class="col-lg-5 col-12">
                         <div class="container">
-                            <h1 class="mb-2 text-white">
+                            <h1 class="mb-2 text-white styling fw-bolder">
                                 Contact with us.
                             </h1>
-                            <p class="text-white h5">
+                            <p class="text-white h6">
                                 More than 90,000 companies trust our business.
                             </p>
                         </div>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-lg-5 col-12 align-self-end">
                         <label for="email"></label>
                             <div class="input-group mb-3">
-                                <input type="email" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                <button class="input-group-text btn" id="email">Get Started <iconify-icon icon="eva:arrow-forward-outline"></iconify-icon></button>
+                                <input type="email" class="form-control rounded-0" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <button class="input-group-text btn btn-primary" id="email">Get Started<iconify-icon icon="material-symbols:arrow-right-alt" class="fs-6"></iconify-icon></button>
+                                
                             </div>
                     </div>
 
@@ -413,35 +447,35 @@
 
                 </div>
 
-                <div class="d-flex justify-content-between align-items-center my-5">
+                <div class="d-flex justify-content-between align-items-center m-5 m-xsm-0 flex-wrap">
                     <div class=" text-center">
-                        <h2>Brad<span>Marketing</span></h2>
+                        <h2 class="fs-4">Brad<span class="text-primary">Marketing</span></h2>
                     </div>
                     <div class="text-center">
-                        <ul class="list-inline justify-content-center">
-                            <li><a href="" class="list-inline-item text-light">about</a></li>
-                            <li><a href="" class="list-inline-item">Product</a></li>
-                            <li><a href="" class="list-inline-item"></a>Service</li>
-                            <li><a href="" class="list-inline-item">Contact</a></li>
+                        <ul class="d-inline-flex gap-4 footer-nav flex-wrap m-0">
+                            <li><a href="#hero">about</a></li>
+                            <li><a href="#products">Product</a></li>
+                            <li><a href="#process">Service</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
 
                     </div>
-                    <div class=" text-center d-flex">
+                    <div class=" text-center d-flex gap-3 mt-2">
                         <div>
-                            <iconify-icon icon="gg:facebook" class="mx-3"></iconify-icon>
+                           <a href="https://www.facebook.com/romeo.mbianou" class="nav-link" target="_blank"><iconify-icon icon="gg:facebook"></iconify-icon></a>
                         </div>
 
                         <div>
-                            <iconify-icon icon="bxl:instagram" class="mx-3"></iconify-icon>
+                           <a href="https://www.instagram.com/mbianou_bradon/" class="nav-link" target="_blank"><iconify-icon icon="bxl:instagram" ></iconify-icon></a>
                         </div>
 
                         <div>
-                            <iconify-icon icon="prime:youtube" class="mx-3"></iconify-icon>
+                           <a href="https://www.youtube.com/channel/UC2jCuDl3tilB9o-YPm5p1tA/featured" class="nav-link" target="_blank"><iconify-icon icon="prime:youtube"></iconify-icon></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="container text-center">
+                <div class="container text-center border-top opacity-1 p-3">
                     <p class="text-muted">Copyright &copy; 2022 BradMarketing</p>
                 </div>
 
@@ -452,7 +486,8 @@
 
    </div> <!-- Main container -->
 
-
+   <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 </body>
