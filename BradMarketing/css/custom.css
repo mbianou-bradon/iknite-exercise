@@ -1,0 +1,150 @@
+body {
+    background-color: #f5f4f0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hero{
+    background-color: #3f6742;
+}
+
+.footer-nav {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    color: white;
+}
+
+.footer-nav a{
+    text-decoration: none !important;
+    color: white;
+}
+
+#creative img, .man-jumping {
+    object-position: center;
+    object-fit: cover;
+}
+
+#creative-process {
+    min-height: max-content;
+}
+
+#icon-hero {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.play-btn {
+    background-color: #FF9460;
+    right:0;
+    margin-inline-end: -1.5rem;
+}
+
+.advert-card , #creative{
+    background-color: #182a1c;
+
+}
+
+.advert-card {
+    color: white;
+    width: fit-content;
+    height: max-content;
+    padding: 1rem;
+}
+
+.advert-card p {
+    font-size: 13px;
+}
+
+.advert-card a {
+    font-size: 13px;
+}
+
+.advert-card img {
+    max-width: 100%;
+    object-position: center;
+}
+
+.advert-card .card-body {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+h1 {
+    font-size: 70px !important;
+}
+
+.dashboard {
+    background-color: #fd661f;
+    top: 2em;
+    left: 10.5em;
+}
+
+
+.side-contact {
+    bottom: 10;
+    left: 0;
+}
+
+.avatar {
+    padding: 5px;
+    border-radius: 2rem;
+    background-color: #fd661f;
+    color: white;
+    font-size: 8px;
+}
+
+.side-contact h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.side-contact p{
+    font-size: 16px;
+    margin-bottom: 0.2rem;
+}
+
+.main-avatar {
+    font-size: 15px;
+}
+
+
+.matrix-image {
+    width: 9rem;
+}
+
+@media (max-width: 600px) {
+    
+
+.matrix-image {
+    width: 5rem;
+}
+
+.side-contact {
+    width: 35%;
+    left: 30px;
+   
+}
+
+.avatar {
+    padding: 2px;
+    border-radius: 2rem;
+    background-color: #fd661f;
+    color: white;
+    font-size: 5px;
+}
+
+.side-contact h2 {
+    font-size: 10px;
+    text-align: center;
+}
+
+.side-contact p{
+    font-size: 11px;
+    margin-bottom: 0.2rem;
+}
+
+
+}
