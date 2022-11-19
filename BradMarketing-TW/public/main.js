@@ -2,6 +2,11 @@ const burger = document.querySelector('#burger');
 const nav = document.querySelector('#nav');
 const cross = document.querySelector('#cross');
 
+// if (nav.classList.contains('hidden')){
+//     nav.classList.remove('hidden');
+// }
+
+
 burger.addEventListener('click', ()=>{
     // if (nav.classList.contains('hidden')){
     //     nav.classList.remove('hidden');
