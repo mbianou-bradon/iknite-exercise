@@ -1171,12 +1171,20 @@ video {
     display: none;
   }
 
+  .md\:h-auto {
+    height: auto;
+  }
+
   .md\:w-2\/5 {
     width: 40%;
   }
 
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:max-w-\[300px\] {
@@ -1294,6 +1302,10 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-\[18px\] {
+    font-size: 18px;
   }
 }
 @media (min-width: 1024px) {
